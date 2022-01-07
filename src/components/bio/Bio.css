@@ -43,8 +43,13 @@ h1 {
   font: italic bold 52px "Roboto", sans-serif !important;
 }
 
+.bio {
+  display: flex;
+}
+
 h2 {
-  text-align: center;
+  display: flex;
+  align-items: center;
   justify-content: center;
   text-shadow: 1px 1px 2px white;
   font: italic bold 32px "Roboto", sans-serif !important;
@@ -67,6 +72,5 @@ a {
 }
 
 img {
-  margin:  15px;
-  border-image: url("https://mdn.mozillademos.org/files/4127/border.png") 30;
+  margin:  16px;
 }
