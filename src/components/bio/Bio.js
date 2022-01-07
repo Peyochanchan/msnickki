@@ -5,16 +5,16 @@ const Bio = () => {
   const handleClick = () => {
     window.open("https://www.facebook.com/msnickki");
   };
-  const url_affiche = "https://res.cloudinary.com/dnpddlkrq/image/upload/v1641565779/casino_pornichet_cf5tnr.jpg"
+  const url_affiche =
+    "https://res.cloudinary.com/dnpddlkrq/image/upload/v1641565779/casino_pornichet_cf5tnr.jpg";
   return (
     <div>
       <div className="title">
-        <h1 className="sep_haut">MS NICCKI</h1>
+        <h1 className="bord_haut">MS NICCKI</h1>
         <h1>&</h1>
-        <h1 className="sep_bas">THE MEMPHIS SOUL CONNECTION</h1>
-        </div>
-      <div className="navbar">
+        <h1 className="bord_bas">THE MEMPHIS SOUL CONNECTION</h1>
       </div>
+      <div className="navbar"></div>
       <div className="ui two column doubling stackable grid container">
         <div className="column">
           <div className="ui segment text">
@@ -34,8 +34,8 @@ const Bio = () => {
         </div>
         <div className="column bio">
           <div className="ui segment text">
-            Le combo (MS Nickki - Florian Royo - Pierre Cherbero - Julien Dubois -
-            Eric Boréave) tourne régulièrement en Europe depuis une dizaine
+            Le combo (MS Nickki - Florian Royo - Pierre Cherbero - Julien Dubois
+            - Eric Boréave) tourne régulièrement en Europe depuis une dizaine
             d'années et s'est produit sur des grandes scènes comme Cahors Blues
             Festival, Blues sur Seine, Beautiful Swamp Blues Festival, Cameros
             Blues Festival (Espagne). Dublin Blues Festival (Irelande), Blues
@@ -45,17 +45,25 @@ const Bio = () => {
             c'est l'école américaine du show...
           </div>
           <h2 className="ui header">
-  <i className="large icons">
-      <i className="blue facebook link icon" onClick={handleClick}></i>
-      Follow Us
-      </i>
-      </h2>
+            <i className="large icons">
+              <i className="blue facebook link icon" onClick={handleClick}>
+                <p>FOLLOW US</p>
+              </i>
+            </i>
+          </h2>
         </div>
       </div>
-      <div className="ui container grid" style={{justifyContent: 'center', alignItems: 'center'}}>
-      <a className="tof_cadre" href={url_affiche}>
-        <img src={url_affiche} alt="affichemsnickki" style={{width: "100%"}}/>
-      </a>
+      <div
+        className="ui container grid"
+        style={{ justifyContent: "center", alignItems: "center" }}
+      >
+        <a className="tof_cadre" href={url_affiche}>
+          <img
+            src={url_affiche}
+            alt="affichemsnickki"
+            style={{ width: "100%" }}
+          />
+        </a>
       </div>
     </div>
   );

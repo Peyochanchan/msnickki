@@ -1,8 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import './header.css';
 const Header = () => {
   return (
-      <div className="ui top attached tabular menu">
+      <div className="ui inverted menu">
         <Link to="/" className="item">
           Home
         </Link>
@@ -16,6 +17,7 @@ const Header = () => {
           Dates
         </Link>
       </div>
+
   );
 };
 

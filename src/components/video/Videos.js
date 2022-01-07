@@ -1,21 +1,21 @@
 import React, { useState, useEffect } from "react";
-import VideoList from './VideoList';
-import VideoDetail from './VideoDetail';
-import videozz from './data/videozz';
-
+import VideoList from "./VideoList";
+import VideoDetail from "./VideoDetail";
+import videozz from "./data/videozz";
+import './videos.css';
 
 const Videos = () => {
   const [videos, setVideos] = useState(videozz);
-  const [selectedVideo, setSelectedVideo] = useState(videozz[0])
+  const [selectedVideo, setSelectedVideo] = useState(videozz[0]);
   useEffect(() => {
     setVideos(videozz);
     setSelectedVideo(selectedVideo);
-    document.getElementById('screen').scrollIntoView({behavior: "smooth"})
+    document.getElementById("screen").scrollIntoView({ behavior: "smooth" });
   }, [videos, selectedVideo]);
 
   const handleClick = () => {
     window.open("https://www.youtube.com/results?search_query=ms+nickki+");
-  }
+  };
 
   return (
     <div className="ui container" id="screen">
@@ -25,21 +25,19 @@ const Videos = () => {
             <VideoDetail video={selectedVideo} />
             <br />
             <h3 className="ui header_yt">
-  <i className="large icons">
-      <i className="red youtube link icon" onClick={handleClick}></i>
-      More on Youtube
-      </i>
-      </h3>
+              <i className="large icons">
+                <i className="red youtube link icon" onClick={handleClick}>  More on Youtube
+</i>
+              </i>
+            </h3>
           </div>
           <div className="five wide column">
-            <VideoList videos={videos} onVideoSelect={setSelectedVideo}/>
+            <VideoList videos={videos} onVideoSelect={setSelectedVideo} />
           </div>
         </div>
       </div>
     </div>
   );
 };
-
-
 
 export default Videos;
