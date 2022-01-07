@@ -1,9 +1,9 @@
 import React from "react";
 import { BrowserRouter, Route } from "react-router-dom";
-import Header from "./Header";
+import Header from "./header/Header";
 import Videos from "./video/Videos";
 import Photos from "./photos/Photos";
-import Dates from "./Dates";
+import Dates from "./dates/Dates";
 import Bio from "./bio/Bio";
 
 const App = () => {
