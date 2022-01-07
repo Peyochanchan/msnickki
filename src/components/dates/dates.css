@@ -1,8 +1,10 @@
 .title_actus {
   padding:  20px;
+  text-justify:  auto !important;
   border-bottom:  2px solid black;
 }
 
 .list_dates {
-  margin-left: 30px;
+  margin: 10px;
+  padding: 4px;
 }
