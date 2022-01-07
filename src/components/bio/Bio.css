@@ -1,0 +1,61 @@
+body {
+  background-color: rgb(252, 234, 212);
+}
+
+.navbar {
+  background-image: url(./ms_nickki_freddy_photography.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  margin-top: 20px !important;
+}
+
+.text {
+  position: relative;
+  top: -40px;
+  font-size:  24px !important;
+  line-height: 1.8 !important;
+  font-family: 'Roboto', sans-serif !important;
+  text-align: justify;
+  text-justify:  auto !important;
+}
+.title {
+  padding-bottom: 20px;
+}
+
+.sep_haut {
+  border-top: 2px solid;
+
+}
+
+.sep_bas {
+  border-bottom: 2px solid;
+
+}
+
+h1 {
+  color:  black;
+  text-align: center;
+  justify-content: center;
+  text-shadow: 1px 1px 2px white;
+  font: italic bold 52px "Roboto", sans-serif !important;
+}
+
+h2 {
+  text-align: center;
+  justify-content: center;
+  text-shadow: 1px 1px 2px white;
+  font: italic bold 32px "Roboto", sans-serif !important;
+}
+
+.bio i {
+  position: relative;
+  left: 120px;
+  margin-right: 40px;
+}
+
+img {
+  margin:  15px;
+  border-image: url("https://mdn.mozillademos.org/files/4127/border.png") 30;
+}

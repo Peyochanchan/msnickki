@@ -1,0 +1,7 @@
+.header_yt i {
+  position:  fixed;
+  display: flex;
+  justify-self: center;
+  align-self:  center;
+}
+
