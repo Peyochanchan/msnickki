@@ -5,7 +5,7 @@ import "./header.css";
 const Header = () => {
   return (
     <React.Fragment>
-      <div className="ui top fixed inverted menu">
+      <div className="ui top fixed inverted four item menu">
         <Link to="/" className="item">
           Home
         </Link>
