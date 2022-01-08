@@ -10,7 +10,7 @@ const Videos = () => {
   useEffect(() => {
     setVideos(videozz);
     setSelectedVideo(selectedVideo);
-    document.getElementById("screen").scrollIntoView({ behavior: "smooth" });
+    document.querySelector(".separator").scrollIntoView({ behavior: "smooth" });
   }, [videos, selectedVideo]);
 
   const handleClick = () => {
