@@ -1,10 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import './header.css';
+import "./header.css";
 
 const Header = () => {
   return (
-      <div className="ui inverted menu">
+    <React.Fragment>
+      <div className="ui top fixed inverted menu">
         <Link to="/" className="item">
           Home
         </Link>
@@ -18,7 +19,9 @@ const Header = () => {
           Dates
         </Link>
       </div>
-
+    <div className="separator">
+      </div>
+    </React.Fragment>
   );
 };
 

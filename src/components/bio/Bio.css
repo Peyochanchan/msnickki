@@ -25,7 +25,7 @@ body {
 }
 
 .bord_haut {
-
+  padding-top:  60px;
   border-top: 2px solid;
 
 }

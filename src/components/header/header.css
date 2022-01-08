@@ -5,3 +5,7 @@
 .menu {
   border-radius: 0 !important;
 }
+
+.separator {
+  height:  88px;
+}
