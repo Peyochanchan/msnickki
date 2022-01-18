@@ -1,4 +1,5 @@
 import React from "react";
+// import { useLocation } from 'react-router-dom';
 import "./bio.css";
 
 const Bio = () => {
@@ -7,14 +8,17 @@ const Bio = () => {
   };
   const url_affiche =
     "https://res.cloudinary.com/dnpddlkrq/image/upload/v1641565779/casino_pornichet_cf5tnr.jpg";
+
   return (
     <div>
+      <div className="header-portrait">
       <div className="title">
-        <h1 className="bord_haut">MS NICCKI</h1>
+        <h1 className="bord_haut">MS NICKKI</h1>
         <h1>&</h1>
         <h1 className="bord_bas">THE MEMPHIS SOUL CONNECTION</h1>
+
       </div>
-      <div className="navbar"></div>
+      </div>
       <div className="ui two column doubling stackable grid container">
         <div className="column">
           <div className="ui segment text">
@@ -44,6 +48,8 @@ const Bio = () => {
             pour le Blues et la Vie! Elle sait le montrer et "emmener" les gens,
             c'est l'école américaine du show...
           </div>
+        </div>
+      </div>
           <h2 className="ui header">
             <i className="large icons">
               <i className="blue facebook link icon" onClick={handleClick}>
@@ -51,8 +57,6 @@ const Bio = () => {
               </i>
             </i>
           </h2>
-        </div>
-      </div>
       <div
         className="ui container grid"
         style={{ justifyContent: "center", alignItems: "center" }}

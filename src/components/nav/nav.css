@@ -8,4 +8,9 @@
 
 .separator {
   height:  88px;
+  /* display: none; */
+}
+
+.begin_gently {
+  height:  50px;
 }

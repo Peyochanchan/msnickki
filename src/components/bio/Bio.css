@@ -2,55 +2,60 @@ body {
   background-color: rgb(252, 234, 212);
 }
 
-.navbar {
+h1 {
+  line-height: 1 !important;
+
+}
+
+.header-portrait {
   background-image: url(./ms_nickki_freddy_photography.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
   width: 100%;
-  margin-top: 20px !important;
+  display: flex;
 }
 
 .text {
   position: relative;
   top: -40px;
-  font-size:  24px !important;
-  line-height: 1.6 !important;
+  font-size:  24px;
+  line-height: 1.3 !important;
   font-family: 'Roboto', sans-serif !important;
   text-align: justify;
   text-justify:  auto !important;
 }
+
 .title {
-  padding-bottom: 20px;
+  width:  100%;
+  cursor: pointer;
 }
 
-.bord_haut {
-  padding-top:  60px;
-  border-top: 2px solid;
+.title h1 {
+  color: rgb(252, 234, 212);
+  text-shadow: 1px 1px 2px black;
+  opacity: 0.6;
+  transition-duration: 0.4s;
+}
 
+.title h1:hover {
+  opacity: 1;
+  transform: scale(1.2);
+  transition-duration: 0.4s;
 }
 
 .bord_bas {
-  border-bottom: 2px solid;
-
-}
-
-h1 {
-  color:  black;
-  text-align: center;
-  justify-content: center;
-  text-shadow: 1px 1px 2px white;
-  font: italic bold 52px "Roboto", sans-serif !important;
+  margin-bottom:  44px !important;
 }
 
 .bio {
-  display: flex;
+  display: flex !important;
 }
 
 h2 {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: center !important;
+  justify-content: center !important;
   text-shadow: 1px 1px 2px white;
   font: italic bold 32px "Roboto", sans-serif !important;
 }
@@ -71,6 +76,51 @@ a {
   align-items: center;
 }
 
-img {
-  margin:  16px;
+.header p {
+  font-family: 'Roboto', sans-serif !important;
+  font-weight:  bolder;
 }
+
+img {
+  margin:  8px;
+}
+
+@media (min-width: 900px) {
+  .title h1 {
+    margin-top:  20px;
+    width: 50%;
+    text-align: center;
+    font: italic bold 4em "Roboto", sans-serif;
+  }
+  .bord_haut {
+  }
+  .text {
+    font-size:  16px !important;
+  }
+}
+
+@media (max-width: 900px) {
+  .header-portrait {
+    display: inline-flex !important;
+    align-items: flex-end !important;
+  }
+  .title h1 {
+    margin-top:  20px;
+    text-align: center;
+    margin: 0 auto;
+    font: italic bold 3em "Roboto", sans-serif !important;
+  }
+  .text {
+    font-size:  16px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .title h1 {
+    font: italic bold 2em "Roboto", sans-serif !important;
+  }
+  .text {
+    font-size:  16px !important;
+  }
+}
+

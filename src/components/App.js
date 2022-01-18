@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter, Route } from "react-router-dom";
-import Header from "./header/Header";
+import Nav from "./nav/Nav";
 import Videos from "./video/Videos";
 import Photos from "./photos/Photos";
 import Dates from "./dates/Dates";
@@ -10,7 +10,7 @@ const App = () => {
   return (
       <BrowserRouter>
         <div>
-          <Header />
+          <Nav />
           <Route path="/" exact component={Bio} />
           <Route path="/videos" exact component={Videos} />
           <Route path="/dates" exact component={Dates} />

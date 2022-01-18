@@ -1,8 +1,10 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import "./header.css";
+import { Link, useLocation } from "react-router-dom";
+import "./nav.css";
 
 const Header = () => {
+  const location = useLocation();
+
   return (
     <React.Fragment>
       <div className="ui top fixed inverted four item menu">
@@ -19,8 +21,8 @@ const Header = () => {
           Dates
         </Link>
       </div>
-    <div className="separator">
-      </div>
+      <div className={ `${location.pathname !== '/' ? "separator" : "begin_gently" }`}>
+    </div>
     </React.Fragment>
   );
 };
