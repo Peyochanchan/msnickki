@@ -50,6 +50,8 @@ const Bio = () => {
           </div>
         </div>
       </div>
+      <div className="lien_fb">
+      <div className="cadre_lien">
           <h2 className="ui header">
             <i className="large icons">
               <i className="blue facebook link icon" onClick={handleClick}>
@@ -57,6 +59,8 @@ const Bio = () => {
               </i>
             </i>
           </h2>
+          </div>
+          </div>
       <div
         className="ui container grid"
         style={{ justifyContent: "center", alignItems: "center" }}
