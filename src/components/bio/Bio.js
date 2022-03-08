@@ -5,7 +5,7 @@ import "./bio.css";
 const Bio = () => {
 
   const url_affiche =
-    "https://res.cloudinary.com/dnpddlkrq/image/upload/v1641565779/casino_pornichet_cf5tnr.jpg";
+    "https://res.cloudinary.com/dnpddlkrq/image/upload/v1641565779/blues_rules_nvzdsp.jpg";
 
   return (
     <>
@@ -26,7 +26,7 @@ const Bio = () => {
             Elle vous envoie sur la planète "Blues"
             avec un talent vocal impressionnant et un charme naturel qui ne peut
             vous laisser insensible... MS Nickki chante un blues profond alliant
-            la puissance du gospel (répertoire qu'elle connaît particulièrement)
+            la puissance du gospel (répertoire qu'elle connaît particulièrement bien)
             et la douceur de la soul: une alchimie musicale typique de Memphis,
             Tennessee, cette immense ville au riche passé musical dans laquelle
             elle réside depuis une dizaine d'années.<br/>
@@ -60,10 +60,10 @@ const Bio = () => {
             Eric Boréave: batterie choeurs<br/>
             <br/>
             </div>
-            Le quintett tourne régulièrement en Europe depuis une dizaine
+            Le Quintett tourne régulièrement en Europe depuis une dizaine
             d'années et s'est produit sur des grandes scènes comme Cahors Blues
             Festival, Blues sur Seine, Beautiful Swamp Blues Festival, Cameros
-            Blues Festival (Espagne). Dublin Blues Festival (Irelande), Blues
+            Blues Festival (Espagne). Dublin Blues Festival (Irlande), Blues
             Rules Festival (Suisse) et biens d'autres. Sur scène, c'est une onde
             de choc qui se propage ! Elle aime chanter et partager son amour
             pour le Blues et la Vie! Elle sait le montrer et "emmener" les gens,
@@ -79,7 +79,7 @@ const Bio = () => {
         <a className="tof_cadre" href={url_affiche}>
           <img
             src={url_affiche}
-            alt="affichemsnickki"
+            alt="festival_crissier_blues_msnickki"
             style={{ width: "100%" }}
           />
         </a>
