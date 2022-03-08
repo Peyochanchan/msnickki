@@ -86,11 +86,7 @@ img {
   margin-top: 32px;
 }
 
-@media (min-width: 1600px) {
-  .header-portrait {
-    min-height: 130vh !important;
-  }
-}
+
 
 @media (min-width: 992px) {
   .header-portrait {
