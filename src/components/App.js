@@ -5,6 +5,7 @@ import Videos from "./video/Videos";
 import Photos from "./photos/Photos";
 import Dates from "./dates/Dates";
 import Bio from "./bio/Bio";
+import './app.css';
 
 const App = () => {
   return (

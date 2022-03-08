@@ -13,10 +13,6 @@ const Videos = () => {
     document.querySelector(".separator").scrollIntoView({ behavior: "smooth" });
   }, [videos, selectedVideo]);
 
-  const handleClick = () => {
-    window.open("https://www.youtube.com/results?search_query=ms+nickki+");
-  };
-
   return (
     <div className="ui container" id="screen">
       <div className="ui stackable grid">
@@ -24,12 +20,6 @@ const Videos = () => {
           <div className="eleven wide column">
             <VideoDetail video={selectedVideo} />
             <br />
-            <h3 className="ui header_yt">
-              <i className="large icons">
-                <i className="red youtube link icon" onClick={handleClick}>  More on Youtube
-</i>
-              </i>
-            </h3>
           </div>
           <div className="five wide column">
             <VideoList videos={videos} onVideoSelect={setSelectedVideo} />

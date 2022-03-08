@@ -3,43 +3,64 @@ import React from "react";
 import "./bio.css";
 
 const Bio = () => {
-  const handleClick = () => {
-    window.open("https://www.facebook.com/msnickki");
-  };
+
   const url_affiche =
     "https://res.cloudinary.com/dnpddlkrq/image/upload/v1641565779/casino_pornichet_cf5tnr.jpg";
 
   return (
-    <div>
+    <>
       <div className="header-portrait">
       <div className="title">
         <h1 className="bord_haut">MS NICKKI</h1>
-        <h1>&</h1>
-        <h1 className="bord_bas">THE MEMPHIS SOUL CONNECTION</h1>
+        <h2>&</h2>
+        <h2 className="bord_bas">THE MEMPHIS SOUL CONNECTION</h2>
 
       </div>
       </div>
       <div className="ui two column doubling stackable grid container">
-        <div className="column">
+        <div className="column text-one">
           <div className="ui segment text">
             MS Nickki est une "blueswoman" née a Holly Springs (Mississippi),
             berceau de la musique noire américaine dont elle est une
-            représentante aujourd'hui. Elle vous envoie sur la planète "Blues"
+            représentante aujourd'hui. <br/>
+            Elle vous envoie sur la planète "Blues"
             avec un talent vocal impressionnant et un charme naturel qui ne peut
             vous laisser insensible... MS Nickki chante un blues profond alliant
             la puissance du gospel (répertoire qu'elle connaît particulièrement)
             et la douceur de la soul: une alchimie musicale typique de Memphis,
             Tennessee, cette immense ville au riche passé musical dans laquelle
-            elle réside depuis une dizaine d'années. Ses influences majeures
+            elle réside depuis une dizaine d'années.<br/>
+            Ses influences majeures
             sont des chanteuses telles Denise LaSalle, Aretha Franklin, Tina
             Turner, Barbara Carr et des chanteurs originaire de Memphis tels que
             Johnnie Taylor et Al Green.
           </div>
         </div>
-        <div className="column bio">
+        <div className="tof-one">
+        <div
+        className="ui container grid"
+        style={{ justifyContent: "center", alignItems: "center" }}
+      >
+        <a className="tof_cadre" href={url_affiche}>
+          <img
+            src={url_affiche}
+            alt="affichemsnickki"
+            style={{ width: "100%" }}
+          />
+        </a>
+      </div>
+      </div>
+        <div className="column bio text-two">
           <div className="ui segment text">
-            Le combo (MS Nickki - Florian Royo - Pierre Cherbero - Julien Dubois
-            - Eric Boréave) tourne régulièrement en Europe depuis une dizaine
+            <div className="combo">
+            MS Nickki: chant lead<br/>
+            Florian Royo: guitare<br/>
+            Pierre Cherbero: claviers choeurs<br/>
+            Julien Dubois: basse<br/>
+            Eric Boréave: batterie choeurs<br/>
+            <br/>
+            </div>
+            Le quintett tourne régulièrement en Europe depuis une dizaine
             d'années et s'est produit sur des grandes scènes comme Cahors Blues
             Festival, Blues sur Seine, Beautiful Swamp Blues Festival, Cameros
             Blues Festival (Espagne). Dublin Blues Festival (Irelande), Blues
@@ -50,17 +71,7 @@ const Bio = () => {
           </div>
         </div>
       </div>
-      <div className="lien_fb">
-      <div className="cadre_lien">
-          <h2 className="ui header">
-            <i className="large icons">
-              <i className="blue facebook link icon" onClick={handleClick}>
-                <p>FOLLOW US</p>
-              </i>
-            </i>
-          </h2>
-          </div>
-          </div>
+      <div className="tof-two">
       <div
         className="ui container grid"
         style={{ justifyContent: "center", alignItems: "center" }}
@@ -74,6 +85,7 @@ const Bio = () => {
         </a>
       </div>
     </div>
+    </>
   );
 };
 

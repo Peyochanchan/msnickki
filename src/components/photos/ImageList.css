@@ -6,6 +6,9 @@
 }
 
 .image-list img {
+  animation-duration: 1s;
+  animation-name: slidein;
   width: 250px;
   grid-row-end: span 2;
 }
+
