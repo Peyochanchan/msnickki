@@ -12,33 +12,24 @@ const Footer = () => {
   return(
     <div className="footer">
     <div className="cadre_lien">
-          <h3 className="ui header">
-            <i className="icons">
-              <i className="blue facebook link icon" onClick={clickOnFb}>
-            <p>Follow us</p>
-          </i>
+      <h3 className="ui header">
+        <i className="large icons">
+          <i className="blue facebook link icon" onClick={clickOnFb}></i>
         </i>
       </h3>
     </div>
     <div>
-      <p className="devd">site devd by <strong>&#960;r</strong> for</p>
+      <p className="devd">Devd by <strong className="pi-er">&#960;R</strong></p>
       </div>
-      <div>
-      <p className="footer-bname">Ms Nickki & the MSC</p>
+      <div className="cadre_lien">
+        <h3 className="ui header_yt">
+          <i className="large icons">
+            <i className="red youtube link icon" onClick={clickOnYt}></i>
+          </i>
+        </h3>
       </div>
-          <div className="cadre_lien">
-
-      <h3 className="ui header_yt">
-              <i className="icons">
-                <i className="red youtube link icon" onClick={clickOnYt}>
-                  <p>More on Youtube</p>
-                </i>
-              </i>
-            </h3>
-                </div>
-
     </div>
-    )
+  )
 }
 
 export default Footer;
