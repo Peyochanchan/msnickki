@@ -19,12 +19,19 @@
   font-size:  12px;
 }
 
-@media (max-width: 480px) {
+.pi-er {
+  font-size: 20px;
+}
 
+.icons {
+  transform:  scale(1.4);
+  transition:  .2s;
+}
+.icons:hover {
+  transform:  scale(1.7);
+  transition:  .2s;
 }
 
 @media (max-width: 480px) {
-/*  .footer-bname {
-    display:  none;
-  }*/
+
 }
