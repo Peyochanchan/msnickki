@@ -24,32 +24,23 @@ const pictures = [
     src: "https://res.cloudinary.com/dnpddlkrq/image/upload/v1647024472/ms%20nickki/28377622_1443400095789602_6615673523631599054_n_wdpp1a.jpg"
   },
   {
-    id: 7,
-    src: "https://res.cloudinary.com/dnpddlkrq/image/upload/v1647024471/ms%20nickki/29983754_1062667900547475_2033050531025465002_o_jflvbs.jpg"
-  },
-  {
-    id:8,
-    src: "https://res.cloudinary.com/dnpddlkrq/image/upload/v1647024471/ms%20nickki/15196034_752693171544951_2644731441631120432_o_krv2rc.jpg"
-  },
-
-  {
-    id:9,
+    id:7,
     src: "https://res.cloudinary.com/dnpddlkrq/image/upload/v1647024470/ms%20nickki/11426160_10206665271411192_8821453616663307258_o_owvwwm.jpg"
   },
   {
-    id:10,
+    id:8,
     src: "https://res.cloudinary.com/dnpddlkrq/image/upload/v1647024470/ms%20nickki/17362798_804622706372684_1755138266938670636_n_ab2a2s.jpg"
   },
   {
-    id:11,
+    id:9,
     src: "https://res.cloudinary.com/dnpddlkrq/image/upload/v1647024469/ms%20nickki/14207838_953053061507817_8784131019735642188_o_lxzrqn.jpg"
   },
   {
-    id:12,
+    id:10,
     src: "https://res.cloudinary.com/dnpddlkrq/image/upload/v1647024468/ms%20nickki/14999997_1594357697540121_7866049204905662798_o_g9bpvp.jpg"
   },
   {
-    id:13,
+    id:11,
     src: "https://res.cloudinary.com/dnpddlkrq/image/upload/v1647024465/ms%20nickki/13920694_691758694305066_5712869184013491723_n_hrn1vn.jpg"
   }
 ];
