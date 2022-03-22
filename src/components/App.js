@@ -16,33 +16,33 @@ const App = () => {
           <title>Ms Nickki and the Memphis Soul Connection - Soul and Blues Music</title>
           <meta
             name="description"
-            content="MS Nickki chante un blues profond alliant la puissance du gospel (répertoire qu'elle connaît particulièrement bien) et la douceur de la soul: une alchimie musicale typique de Memphis, Tennessee, cette immense ville au riche passé musical dans laquelle elle réside depuis une dizaine d'années. Ses influences majeures sont des chanteuses telles Denise LaSalle, Aretha Franklin, Tina Turner, Barbara Carr et des chanteurs originaire de Memphis tels que Johnnie Taylor et Al Green"
+            content="MS Nickki est chanteuse de Blues et de Soul Music, elle vient de Memphis TN, joue en concert avec le groupe Memphis Soul Connection / MS Nickki is a blues and Soul Music singer, from Memphis TN."
           />
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:image" content="https://res.cloudinary.com/dnpddlkrq/image/upload/v1647024474/ms%20nickki/3582952248_a0af5ed27e_o_cvzxxj.jpg" />
+          <meta name="twitter:image" content="https://res.cloudinary.com/dnpddlkrq/image/upload/c_fill,g_east,h_800,w_800,x_0,y_331/v1647024471/ms%20nickki/MSNickki_singing_freddiePhotography.jpg" />
           <meta
             name="twitter:title"
-            content="Ms Nickki and the Memphis Soul Connection - Soul and Blues Music"
+            content="Ms Nickki and the Memphis Soul Connection - Blues Singer and Soul Music"
           />
           <meta name="twitter:creator" content="@peyochanchan" />
           <meta name="twitter:site" content="@peyochanchan" />
           <meta
             name="twitter:description"
-            content="MS Nickki chante un blues profond alliant la puissance du gospel (répertoire qu'elle connaît particulièrement bien) et la douceur de la soul: une alchimie musicale typique de Memphis, Tennessee, cette immense ville au riche passé musical dans laquelle elle réside depuis une dizaine d'années. Ses influences majeures sont des chanteuses telles Denise LaSalle, Aretha Franklin, Tina Turner, Barbara Carr et des chanteurs originaire de Memphis tels que Johnnie Taylor et Al Green"
+            content="MS Nickki est chanteuse de Blues et de Soul Music, elle vient de Memphis TN, joue en concert avec le groupe Memphis Soul Connection // MS Nickki is a blues and Soul Music singer, from Memphis TN."
           />
           <meta property="og:type" content="website" />
           <meta property="og:url" content="www.msnickki.com" />
           <meta
             property="og:title"
-            content="Ms Nickki and the Memphis Soul Connection - Soul and Blues Music"
+            content="Ms Nickki and the Memphis Soul Connection - Blues Singer and Soul Music"
           />
           <meta
             property="og:description"
-            content="MS Nickki chante un blues profond alliant la puissance du gospel (répertoire qu'elle connaît particulièrement bien) et la douceur de la soul: une alchimie musicale typique de Memphis, Tennessee, cette immense ville au riche passé musical dans laquelle elle réside depuis une dizaine d'années. Ses influences majeures sont des chanteuses telles Denise LaSalle, Aretha Franklin, Tina Turner, Barbara Carr et des chanteurs originaire de Memphis tels que Johnnie Taylor et Al Green"
+            content="MS Nickki est chanteuse de Blues et de Soul Music, elle vient de Memphis TN, joue en concert avec le groupe Memphis Soul Connection // MS Nickki is a blues and Soul Music singer, from Memphis TN."
           />
           <meta
             property="og:image"
-            content="https://res.cloudinary.com/dnpddlkrq/image/upload/v1647024474/ms%20nickki/3582952248_a0af5ed27e_o_cvzxxj.jpg"
+            content="https://res.cloudinary.com/dnpddlkrq/image/upload/c_scale,h_1080,w_1080/v1647024471/ms%20nickki/MSNickki_singing_freddiePhotography.jpg"
           />
         </Helmet>
         <div>
