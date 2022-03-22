@@ -1,6 +1,5 @@
 import React, { Suspense } from 'react';
 import ReactDOM from 'react-dom';
-// import App from './components/App';
 import App from './components/App';
 
 import Footer from "./components/footer/Footer"
