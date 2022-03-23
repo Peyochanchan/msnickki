@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import ImageList from './ImageList';
-import pictures from './pictures/pictures';
+import pictures from '../../data/pictures/pictures';
 
 const Photos = () => {
   const [images, setImages] = useState([]);

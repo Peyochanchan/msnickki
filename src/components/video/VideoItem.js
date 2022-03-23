@@ -1,6 +1,6 @@
 import React from 'react';
-import youtube_parser from './data/youtube_helper';
-import './VideoItem.css';
+import youtube_parser from '../../data/videos/youtube_helper';
+import '../../stylesheets/VideoItem.css';
 
 const VideoItem = ({ video, onVideoSelect }) => {
 

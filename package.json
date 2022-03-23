@@ -11,6 +11,10 @@
     "@testing-library/react": "^12.0.0",
     "@testing-library/user-event": "^13.2.1",
     "autoprefixer": "10.4.4",
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-register": "^6.26.0",
     "css-select": "2.1.0",
     "i18next": "^21.6.14",
     "i18next-browser-languagedetector": "^6.1.3",
@@ -41,7 +45,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "sitemap": "babel-node src/sitemap-builder.js"
   },
   "eslintConfig": {
     "extends": [
@@ -60,5 +65,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "react-sitemap-stevedevops": "^0.4.0"
   }
 }

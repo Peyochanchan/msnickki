@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 
-import "./ImageList.css";
+import "../../stylesheets/ImageList.css";
 
 const ImageCard = ({ image }) => {
   const [spans, setSpans] = useState(0);

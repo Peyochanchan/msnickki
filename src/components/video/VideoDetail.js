@@ -1,5 +1,5 @@
 import React from 'react';
-import youtube_parser from './data/youtube_helper';
+import youtube_parser from '../../data/videos/youtube_helper';
 
 const VideoDetail = ({ video }) => {
   if (!video) {

@@ -3,14 +3,14 @@ import { Trans, withTranslation } from 'react-i18next';
 import LangSelector from './LangSelector';
 
 // import { useLocation } from 'react-router-dom';
-import "./bio.css";
+import "../../stylesheets/bio.css";
 
 const Bio = () => {
   const url_affiche =
     "https://res.cloudinary.com/dnpddlkrq/image/upload/v1641565779/blues_rules_nvzdsp.jpg";
 
   return (
-    <>
+    <React.Fragment>
       <div>
       </div>
       <LangSelector />
@@ -68,7 +68,7 @@ const Bio = () => {
         </a>
       </div>
     </div>
-    </>
+    </React.Fragment>
   );
 };
 

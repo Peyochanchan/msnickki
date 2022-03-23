@@ -1,4 +1,4 @@
-import "./ImageList.css";
+import "../../stylesheets/ImageList.css";
 import React from "react";
 import ImageCard from "./ImageCard";
 import { keyframes, css } from "styled-components";
