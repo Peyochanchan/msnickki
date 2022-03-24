@@ -14,7 +14,7 @@ i18n
       loadPath: '/assets/i18n/{{ns}}/{{lng}}.json'
     },
     fallbackLng: 'fr',
-    debug: true,
+    // debug: true,
     ns: ['translations'],
     defaultNS: 'translations',
     keySeparator: false,
@@ -23,7 +23,7 @@ i18n
       formatSeparator: ','
     },
     react: {
-      wait: true
+      useSuspense: true
     }
   });
 
