@@ -5,7 +5,7 @@ import '../../stylesheets/VideoItem.css';
 const VideoItem = ({ video, onVideoSelect }) => {
 
   const videoId = youtube_parser(video.url);
-  const videoThumb = `http://img.youtube.com/vi/${videoId}/hqdefault.jpg`;
+  const videoThumb = `https://img.youtube.com/vi/${videoId}/hqdefault.jpg`;
 
   return (
     <div onClick={() => onVideoSelect(video)} className="video-item item">
