@@ -9,7 +9,7 @@ h1 {
 }
 
 .header-portrait {
-  background-image: url(./ms_nickki_freddy_photography.jpeg);
+  background-image: url("https://res.cloudinary.com/dnpddlkrq/image/upload/v1647024471/ms%20nickki/MSNickki_singing_freddiePhotography.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   min-height:  700px;
@@ -141,7 +141,7 @@ img {
 }
 @media (max-width:  991px) {
   .header-portrait {
-    background-image: url(./ms_nickki_freddy_photography.jpeg);
+    background-image: url("https://res.cloudinary.com/dnpddlkrq/image/upload/v1647024471/ms%20nickki/MSNickki_singing_freddiePhotography.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height:  800px;

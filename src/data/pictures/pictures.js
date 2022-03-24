@@ -1,7 +1,7 @@
 const pictures = [
   {
     id: 1,
-    src: "https://res.cloudinary.com/dnpddlkrq/image/upload/v1647024474/ms%20nickki/3582952248_a0af5ed27e_o_cvzxxj.jpg"
+    src: "https://res.cloudinary.com/dnpddlkrq/image/upload/v1647024474/ms%20nickki/MS%20Nickki%20Microphone.jpg"
   },
   {
     id: 2,

@@ -11,8 +11,6 @@ const Bio = () => {
 
   return (
     <React.Fragment>
-      <div>
-      </div>
       <LangSelector />
       <div className="header-portrait">
       <div className="title">
