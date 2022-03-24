@@ -10,11 +10,11 @@ import '../stylesheets/app.css';
 const App = () => {
   return (
     <BrowserRouter>
-        <Nav />
-        <Route path="/" exact component={Bio} />
-        <Route path="/videos" exact component={Videos} />
-        <Route path="/dates" exact component={Dates} />
-        <Route path="/photos" exact component={Photos} />
+      <Nav />
+      <Route path="/" exact component={Bio} />
+      <Route path="/videos" exact component={Videos} />
+      <Route path="/dates" exact component={Dates} />
+      <Route path="/photos" exact component={Photos} />
     </BrowserRouter>
   );
 }
