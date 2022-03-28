@@ -1,5 +1,6 @@
 import React, { Suspense } from 'react';
 import { hydrate, render } from 'react-dom';
+
 import App from './components/App';
 import Footer from "./components/footer/Footer"
 import './i18n';

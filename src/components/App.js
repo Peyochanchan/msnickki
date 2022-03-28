@@ -5,6 +5,8 @@ import Videos from "./video/Videos";
 import Photos from "./photos/Photos";
 import Dates from "./dates/Dates";
 import Bio from "./bio/Bio";
+import PageNotFound from './404Page/PageNotFound';
+
 import '../stylesheets/app.css';
 
 const App = () => {
@@ -15,6 +17,7 @@ const App = () => {
       <Route path="/videos" exact component={Videos} />
       <Route path="/dates" exact component={Dates} />
       <Route path="/photos" exact component={Photos} />
+      <Route component={PageNotFound} />
     </BrowserRouter>
   );
 }
