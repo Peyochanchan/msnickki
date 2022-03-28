@@ -24,6 +24,7 @@
     "node-forge": "1.3.0",
     "nth-check": "^2.0.1",
     "postcss": "8.4.12",
+    "puppeteer": "13.5.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-i18next": "^11.15.6",
@@ -43,6 +44,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "postbuild": "react-snap",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "sitemap": "babel-node src/sitemap-builder.js"
@@ -66,6 +68,7 @@
     ]
   },
   "devDependencies": {
-    "react-sitemap-stevedevops": "^0.4.0"
+    "react-sitemap-stevedevops": "^0.4.0",
+    "react-snap": "^1.23.0"
   }
 }
