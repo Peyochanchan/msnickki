@@ -10,8 +10,8 @@ const app = (
   <React.StrictMode>
     <Suspense fallback={<span>Loading...</span>}>
       <App />
+      <Footer />
     </Suspense>
-    <Footer />
   </React.StrictMode>
 );
 
