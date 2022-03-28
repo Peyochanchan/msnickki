@@ -70,5 +70,11 @@
   "devDependencies": {
     "react-sitemap-stevedevops": "^0.4.0",
     "react-snap": "^1.23.0"
+  },
+  "reactSnap": {
+    "puppeteerArgs": [
+      "--no-sandbox",
+      "--disable-setuid-sandbox"
+    ]
   }
 }
