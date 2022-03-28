@@ -1,18 +1,22 @@
 import React from "react";
 import "../../stylesheets/fourOfour.css";
-
 const PageNotFound = () => {
-  return (
-    <div className="container pagenotfound">
-<h2 class="ui center aligned icon header">
-  <i class="newspaper outline icon"></i>
-  <div class="content">
+return (
+<div className="container pagenotfound">
+  <div className="wrapit">
+    <h1>
     ERROR 404
-    <div class="sub header">We're Sorry, Something Went Wrong ! Please Click On One of The Links above !</div>
+    </h1>
+    <h1>
+    ... Nothing Here !
+    </h1>
+    <i class="huge newspaper outline icon">
+    </i>
+    <h1>
+    Well !... We're at the Bar, If You Need Anything!
+    </h1>
   </div>
-</h2>
 </div>
-  );
+);
 }
-
 export default PageNotFound;

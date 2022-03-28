@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Nav from "./nav/Nav";
 import Videos from "./video/Videos";
 import Photos from "./photos/Photos";
@@ -13,11 +13,13 @@ const App = () => {
   return (
     <BrowserRouter>
       <Nav />
-      <Route path="/" exact component={Bio} />
-      <Route path="/videos" exact component={Videos} />
-      <Route path="/dates" exact component={Dates} />
-      <Route path="/photos" exact component={Photos} />
-      <Route component={PageNotFound} />
+      <Switch>
+        <Route path="/" exact component={Bio} />
+        <Route path="/videos" exact component={Videos} />
+        <Route path="/dates" exact component={Dates} />
+        <Route path="/photos" exact component={Photos} />
+        <Route component={PageNotFound} />
+      </Switch>
     </BrowserRouter>
   );
 }

@@ -1,3 +1,23 @@
 .pagenotfound {
+  display: flex;
+  margin: 0 auto !important;
   height:  100vh;
+  background-image: url(https://res.cloudinary.com/dnpddlkrq/image/upload/v1647024470/ms%20nickki/17362798_804622706372684_1755138266938670636_n_ab2a2s.jpg);
+  background-repeat: no-repeat;
+  object-fit:  cover;
+  background-position: center center;
+  align-items:  flex-start;
+  justify-content: center;
+  text-shadow: 0.6px 0.6px 1px black; color:rgb(252, 234, 212);
+}
+
+.pagenotfound h1 {
+  padding: 10px 0;
+  text-shadow: 0.6px 0.6px 1px black; color:rgb(252, 234, 212);
+}
+
+.wrapit {
+  margin-top:  100px;
+  display: block;
+  text-align: center;
 }
