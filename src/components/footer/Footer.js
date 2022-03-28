@@ -19,7 +19,7 @@ const Footer = () => {
       </h3>
     </div>
     <div>
-      <p className="devd">Devd by <strong className="pi-er">&#960;R</strong></p>
+      <p className="devd">MS Nickki</p>
       </div>
       <div className="cadre_lien">
         <h3 className="ui header_yt">
