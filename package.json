@@ -57,6 +57,12 @@
     "eject": "react-scripts eject",
     "sitemap": "babel-node src/sitemap-builder.js"
   },
+  "reactSnap": {
+    "puppeteerArgs": [
+      "--no-sandbox",
+      "--disable-setuid-sandbox"
+    ]
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -79,10 +85,4 @@
     "react-sitemap-stevedevops": "^0.4.0",
     "react-snap": "^1.23.0"
   },
-  "reactSnap": {
-    "puppeteerArgs": [
-      "--no-sandbox",
-      "--disable-setuid-sandbox"
-    ]
-  }
 }
