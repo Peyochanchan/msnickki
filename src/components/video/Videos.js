@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import VideoList from "./VideoList";
 import VideoDetail from "./VideoDetail";
 import videozz from "../../data/videos/videozz";
-import '../../stylesheets/videos.css';
 
 const Videos = () => {
   const [videos, setVideos] = useState(videozz);

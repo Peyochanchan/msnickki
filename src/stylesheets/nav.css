@@ -1,14 +1,9 @@
 .item {
-  font-size: 18px !important;
-}
-
-.menu {
-  border-radius: 0 !important;
+  font-size: 16px;
 }
 
 .separator {
   height:  88px;
-  /* display: none; */
 }
 
 .begin_gently {
