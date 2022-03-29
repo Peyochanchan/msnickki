@@ -3,8 +3,11 @@ import "../../stylesheets/dates.css";
 
 const Dates = () => {
   return (
+    <div>
+    <div className="title_actus">
+      <h2>Actualités</h2>
+    </div>
     <div className="dates">
-      <h2 className="title_actus">Actualités</h2>
       <div className="list_dates">
         <h3>
           Ms Nickki revient en Europe, accompagnée de la Memphis Soul
@@ -45,6 +48,7 @@ const Dates = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };

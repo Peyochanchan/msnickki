@@ -1,0 +1,8 @@
+/*.list .content p {
+}*/
+
+.player.ytp-title.ytp-title-text.ytp-title-link > * {
+  font-family: 'Playfair Display', serif !important;
+
+/*    font-family: 'Roboto', sans-serif;
+*/}
