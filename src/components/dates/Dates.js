@@ -41,7 +41,7 @@ const Dates = () => {
                 Blues Rules Crissier Festival
               </a>
               <div className="description">
-                Vendredi 10 et Samedi 11 juillet 2022 - Parc de Montassé,
+                Vendredi 10 et Samedi 11 juin 2022 - Parc de Montassé,
                 Crissier-Lausanne(Suisse)
               </div>
             </div>
