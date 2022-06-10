@@ -12,3 +12,8 @@
   grid-row-end: span 2;
 }
 
+.photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

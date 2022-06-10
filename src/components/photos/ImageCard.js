@@ -16,7 +16,7 @@ const ImageCard = ({ image }) => {
   const { id, src } = image;
 
   return (
-    <div style={{ gridRowEnd: `span ${spans}`}}>
+    <div className="photo" style={{ gridRowEnd: `span ${spans}` }}>
      <a href={image.src} target="blank">
       <img ref={imageRef} alt={image.src} key={id} src={image.src} href={src} />
       </a>
