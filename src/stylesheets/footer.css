@@ -5,7 +5,7 @@
   left: 0;
   right: 0;
   width:100%;
-  height:60px;
+  height:65px;
   background-color: black;
   color:  #FCEAD4;
   display: flex;
@@ -15,12 +15,8 @@
 }
 
 
-.cadre_lien p {
+.cadre_lien p, a {
   font-size:  12px;
-}
-
-.pi-er {
-  font-size: 20px;
 }
 
 .icons {
@@ -30,6 +26,10 @@
 .icons:hover {
   transform:  scale(1.7);
   transition:  .2s;
+}
+
+.presskit .icon, p {
+  color:  rgb(252, 234, 212);
 }
 
 @media (max-width: 480px) {
