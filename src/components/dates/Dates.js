@@ -41,7 +41,7 @@ const Dates = () => {
                   Chez Dan
                 </a>
                 <div className="description">
-                  Dimanche 6 juin 2022 - Contis Plage(Landes)
+                  Dimanche 5 juin 2022 - Contis Plage(Landes)
                 </div>
               </div>
             </div>
