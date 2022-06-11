@@ -30,6 +30,7 @@
 
 .presskit .icon, p {
   color:  rgb(252, 234, 212);
+  font-size: 12px;
 }
 
 @media (max-width: 480px) {

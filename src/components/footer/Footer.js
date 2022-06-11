@@ -32,7 +32,7 @@ const Footer = () => {
           <h3 className="ui header">
             <i className="home icons">
               <i className="download link icon" onClick={pressKitDownload}>
-                <p>PressKit</p>
+                <p className="devd">PressKit</p>
               </i>
             </i>
           </h3>
