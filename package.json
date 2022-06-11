@@ -19,6 +19,7 @@
     "chokidar": "3.5.3",
     "css-select": "2.1.0",
     "eslint": "8.12.0",
+    "file-saver": "^2.0.5",
     "glob-parent": "6.0.2",
     "i18next": "^21.6.14",
     "i18next-browser-languagedetector": "^6.1.3",
