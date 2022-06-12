@@ -15,7 +15,7 @@
 }
 
 
-.cadre_lien p, a {
+.cadre_lien p, .cadre_lien a {
   font-size:  12px;
 }
 
@@ -28,7 +28,7 @@
   transition:  .2s;
 }
 
-.presskit .icon, p {
+.presskit .icon, .icon p {
   color:  rgb(252, 234, 212);
   font-size: 12px;
 }
